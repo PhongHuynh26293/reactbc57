@@ -1,10 +1,15 @@
 import ReactDOM from 'react-dom/client';
-// Tạo root trên thẻ div#root
+import HomeLayout from './components/HomeLayout/HomeLayout';
+import Databinding from './DataBinding/Databinding';
 
+//Tạo root trên thẻ div#root
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//JSX
 root.render(
-  <div className='abc'>
-    hello cybersoft
-  </div>
+    <div className="abc">
+      {/* <HomeLayout /> */}
+      <Databinding/>
+    </div>
 );
+
 
