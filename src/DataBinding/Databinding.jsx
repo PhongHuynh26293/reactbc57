@@ -19,7 +19,7 @@ export default class Databinding extends Component {
     let person = {
         id:1,
         name: 'phong',
-        img: 'https://i.pravatar.cc/150?img=3',
+        img: 'https://i.pravatar.cc?u=2',
         age:30
     }
 
