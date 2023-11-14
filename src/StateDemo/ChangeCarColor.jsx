@@ -24,9 +24,15 @@ export default class ChangeCarColor extends Component {
                     <button className='btn btn-danger' onClick={()=>{
                         this.changeColor('red')
                     }}>Red</button>
-                    <button className='btn btn-dark mx-2'>Black</button>
-                    <button className='btn btn-secondary mx-2'>Silver</button>
-                    <button className='btn btn-secondary'>Steel</button>
+                    <button className='btn btn-dark mx-2' onClick={()=>{
+                        this.changeColor('black')
+                    }}>Black</button>
+                    <button className='btn btn-secondary mx-2' onClick={()=>{
+                        this.changeColor('silver')
+                    }}>Silver</button>
+                    <button className='btn btn-secondary' onClick={()=>{
+                        this.changeColor('steel')
+                    }}>Steel</button>
                 </div>
             </div>
         </div>
