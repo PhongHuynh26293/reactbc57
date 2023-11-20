@@ -9,6 +9,11 @@ import ChangeFontSize from './StateDemo/ChangeFontSize';
 import ChangeColor from './StateDemo/ChangeColor';
 import ChangeAvatar from './StateDemo/ChangeAvatar';
 import ChangeCarColor from './StateDemo/ChangeCarColor';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+// import DemoProps from './Props/DemoProps';
+import ExRenderProductList from './Props/ExRenderProductList/ExRenderProductList';
+import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet/BaiTapXemChiTiet';
+import BaiTapGioHang from './Props/BaiTapGioHang.jsx/BaiTapGioHang';
 
 
 //Tạo root trên thẻ div#root
@@ -24,7 +29,12 @@ root.render(
       {/* <ChangeFontSize/> */}
       {/* <ChangeColor/> */}
       {/* <ChangeAvatar/> */}
-      <ChangeCarColor/>
+      {/* <ChangeCarColor/> */}
+      {/* <RenderWithMap/> */}
+      {/* <DemoProps/> */}
+      {/* <ExRenderProductList/> */}
+      {/* <BaiTapXemChiTiet/> */}
+      <BaiTapGioHang/>
     </div>
 );
 
